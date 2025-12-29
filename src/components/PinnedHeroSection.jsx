@@ -246,7 +246,7 @@ export default function PinnedHeroSection() {
           }}
         >
           <div style={{width:'100%', maxWidth:1000}}>
-            <h2 className="section-title" style={{color:'#fff', textAlign:'center', marginBottom:20}}>Šta Radimo?</h2>
+            <h2 className="section-title" style={{color:'#fff', textAlign:'center', marginBottom:20, fontSize: 'clamp(3rem, 8vw, 6rem)'}}>Šta Radimo?</h2>
             <div className="new-cards" style={{display:'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap:22}}>
               <motion.article className="card" style={{ opacity: newCard1Opacity }}>
                 <p style={{color:'#fff'}}>SEO Optimizacija - Poboljšavamo vidljivost vašeg sajta u pretragama.</p>
